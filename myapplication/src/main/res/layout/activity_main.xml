@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="demo.itcaset.cn.myapplication.MainActivity">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lv">
+    </ListView>
+
+    <demo.itcaset.cn.myapplication.ui.QuickIndexBar
+        android:id="@+id/bar"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/holo_red_dark"/>
+    <TextView
+        android:id="@+id/bg"
+        android:visibility="gone"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:background="@drawable/bg"
+        android:textColor="#ffff00"
+        android:textSize="25dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="A"/>
+</RelativeLayout>
